@@ -1,0 +1,9 @@
+---
+    box: desafiofrontend
+    name: desafiofrontend-dev
+    hostname: vm.desafiofrontend.local
+    provider: virtualbox
+    ram: 256
+    cpus: 1
+    gui: false
+    projects-folder: "/www"
