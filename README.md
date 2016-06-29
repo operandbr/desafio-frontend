@@ -17,7 +17,7 @@ Desenvolver uma para uma aplicação de Agenda de Compromissos (CRUD) utilizando
   - Editar
   - Excluir
 - Realizar validação do formulário no frontend.
-  - Caso ocorra erro ao salvar/editar, apresentá-lo amigavelmente ao usuário.
+  - Caso o servidor retorne erro, apresentá-lo amigavelmente ao usuário.
 - Os métodos de conexão com banco e CRUD já estão desenvolvidos, cabe ao candidato apenas utilizá-los nas rotas adequadas.
 - Todas as listagens e apresentações de dados deverão ser realizadas por Ajax, nenhum layout deverá ser montado no servidor.
 
