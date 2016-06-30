@@ -1,7 +1,8 @@
 ---
-    box: desafiofrontend
-    name: desafiofrontend-dev
-    hostname: vm.desafiofrontend.local
+    ip: 192.168.0.10
+    box: desafio-front-end
+    name: desafio-front-end-dev
+    hostname: vm.desafio-frontend.local
     provider: virtualbox
     ram: 256
     cpus: 1
