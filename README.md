@@ -6,7 +6,7 @@ Este teste é voltado para desenvolvedores que têm interesse em trabalhar na [A
 então... se você está querendo trabalhar em um ambiente descontraído, fazendo o que gosta e compartilhando conhecimento, este desafio é pra você! :)
 
 #### Objetivo:
-Desenvolver uma para uma aplicação de Agenda de Compromissos (CRUD) utilizando [KnockoutJS](http://www.knockoutjs.com) como framework frontend e PHP no backend.
+Desenvolver uma para uma aplicação de Agenda de Compromissos (CRUD) utilizando KnockoutJS como framework frontend e PHP no backend.
 
 #### Desafio:
 - Implementar em HTML/CSS os layouts apresentados em `resources/layouts`.
@@ -28,7 +28,12 @@ Desenvolver uma para uma aplicação de Agenda de Compromissos (CRUD) utilizando
 4. Ao finalizar este desafio, envie-nos um pull request com suas alterações e envie um email para gip@agenciasys.com.br com o link para o pull request.
 
 **Dicas:**
-  - Fica a critério do candidato o uso de frameworks CSS, pré-processadores, task managers e demais ferramentas que o auxiliem tanto em **agilidade**, **qualidade** e **performance**.
+  - Fica a critério do candidato o uso de bibliotecas, testes, *task runners* e demais ferramentas que o auxiliem tanto em **agilidade**, **qualidade** e **performance**.
+
+#### Links de documentações para consulta:
+- [Vagrant](https://www.vagrantup.com/docs/)
+- [KnockoutJS](http://www.knockoutjs.com)
+- [Tutoriais rápidos em KnockoutJS](http://learn.knockoutjs.com/)
 
 #### Sobre a configuração do projeto.
 
@@ -36,8 +41,8 @@ Desenvolver uma para uma aplicação de Agenda de Compromissos (CRUD) utilizando
 
 - Caso você tenha o Apache, Nginx ou outro servidor rodando na sua máquina, certifique-se de que não esteja utilizando a porta `8000`.
 - Url do projeto: `localhost:8000`.
-- A configuração de host virtual está no arquivo `vagrant/config/nginx/conf.d/desafio-frontend.conf`. Você pode alterá-lo para a configuração que achar melhor, se assim desejar.
-- No arquivo `vagrant/config.yaml` existe a configuração `projects-folder: "/www"`. Onde `/www` é o caminho que contém o diretório `desafio-frontend`. No seu caso, provavelmente o diretório será outro. Altere o `/www` para o diretório da sua máquina. (Ex: Se o o projeto, na sua máquina, fica em `/home/usuario/projetos/desafio-frontend`, então você vai substituir o `/www` por `/home/usuario/projetos`)
+- A configuração de host virtual está no arquivo `vagrant/config/nginx/conf.d/desafiofrontend.conf`. Você pode alterá-lo para a configuração que achar melhor, se assim desejar.
+- No arquivo `vagrant/config.yaml` existe a configuração `projects-folder: "/www"`. Onde `/www` é o caminho que contém o diretório `desafio-frontend`. No seu caso, provavelmente o diretório será outro. Altere o `/www` para o diretório da sua máquina. (Ex: Se o o projeto, na sua máquina, fica em `/home/usuario/projetos/desafio-front-end`, então você vai substituir o `/www` por `/home/usuario/projetos`)
 - Banco de dados:
   - Usuário: `root`
   - Senha: `admin`
