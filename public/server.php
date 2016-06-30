@@ -1,28 +1,52 @@
 <?php
-require('../ScheduleDatabase.php');
-$db = new ScheduleDatabase();
+require('../Schedule.php');
+$db = new Schedule();
 
-function insert()
+function insert($db)
 {
     // $db->insert([]);
 }
 
-function delete()
+function delete($db)
 {
     // $db->delete(1);
 }
 
-function update()
+function update($db)
 {
     // $db->update([]);
 }
 
-function get()
+function get($db)
 {
-    // $db->fetch([]);
+    // $db->getAll([]);
 }
 
-function getOne()
+function getOne($db)
 {
-    // $db->fetchOne(1);
+    // $db->getFirst(1);
+}
+
+$action = $_REQUEST['action'];
+
+if (isset($action)) {
+    switch ($action) {
+        case 'insert':
+            echo insert($db);
+            break;
+        case 'delete':
+            echo delete($db);
+            break;
+        case 'update':
+            echo update($db);
+            break;
+        case 'get':
+            echo get($db);
+            break;
+        case 'getOne':
+            echo getOne($db);
+            break;
+        default:
+            echo '';
+    }
 }
